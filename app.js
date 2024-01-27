@@ -37,12 +37,12 @@ if (percentage >= 90) {
 }
 
 document.write(`--------- Marksheet --------- <hr> <br> Subject Maths: "  ${Maths} <br>  Subject English: " ${English} <br> Subject Urdu: "  ${urdu} <br> Total Marks: "  ${totalMarks}  <br> Percentage: ${percentage.toFixed(2)}% <br> <hr>  Grade:   ${userGrade} <br> <hr> <hr> .`  );
-document.write(`Subject 1: "  ${Maths}`);
-document.write(`Subject 1: "  ${English}`);
-document.write(`Subject 1: "  ${urdu}`);
-document.write(`Total Marks: "  ${totalMarks}`);
-document.write(`Percentage: ${percentage.toFixed(2)}%`)
-document.write(`Grade:   ${userGrade}`)
+// document.write(`Subject 1: "  ${Maths}`);
+// document.write(`Subject 1: "  ${English}`);
+// document.write(`Subject 1: "  ${urdu}`);
+// document.write(`Total Marks: "  ${totalMarks}`);
+// document.write(`Percentage: ${percentage.toFixed(2)}%`)
+// document.write(`Grade:   ${userGrade}`)
 
 
 // Assignment 4a
