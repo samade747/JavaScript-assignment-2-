@@ -47,17 +47,12 @@ document.write(`--------- Marksheet --------- <hr> <br> Subject Maths: "  ${Math
 
 // Assignment 4a
 
-const number = +prompt("Enter a number of table:");
-const a = +prompt("Enter a number of table start:");
-const e = +prompt("Enter a number of table end:");
+let = usera = +prompt('Enter Value for table start');
+let = userinpa1 = +prompt('Enter Value for table length');
 
-document.write(`<h2>Multiplication Table for ${number}</h2>`);
-document.write("<ul>");
-for (let i = a; a <= e; a++) {
-    const result = number * i;
-    document.write(`<li>${number} x ${i} = ${result}</li>`);
+for(var i=1; i<=userinpa1; i++){
+    document.write(usera + 'X' + i + '=' + userinpa1*i, '<br>')
 }
-document.write("</ul>");
 
 
 
