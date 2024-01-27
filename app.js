@@ -13,8 +13,8 @@ if (temperatureCelsius > 30) {
 
 
 const Maths = +prompt('Enter Marks of Maths');
-const English = +prompt('Enter Marks of Maths');
-const urdu = +prompt('Enter Marks of Maths');
+const English = +prompt('Enter Marks of English');
+const urdu = +prompt('Enter Marks of urdu');
 
 const totalMarks = Maths + English + urdu;
 const percentage = (totalMarks / 300) * 100;
