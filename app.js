@@ -59,3 +59,49 @@
 // }
 // document.write("</ul>");
 
+
+
+// Assignment 4b
+
+let number = 5; 
+let factorial = 1;
+let i = 1;
+
+while (i <= number) {
+    factorial *= i;
+    i++; 
+}
+
+console.log(`Factorial of ${number} is: ${factorial}`);
+
+
+// Assignment 5a
+function greetUser(name) {
+    return `Hello, ${name}! Welcome to our website.`;    
+}
+const userRespone = prompt("What is your name?");
+const greetingUser = greetUser(userRespone);
+alert(greetingUser);
+
+
+// Assignment 5b
+function isPrime(num) {
+    // Prime numbers greater than 1 and divisible only by 1 
+    if (num <= 1) {
+        return false;
+    }
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+        if (num % i === 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
+const userInput = +prompt("Enter a positive integer:");
+const primeCheck = isPrime(userInput);
+if (primeCheck) {
+    console.log(`${userInput} is a prime number.`);
+} else {
+    console.log(`${userInput} is not a prime number.`);
+}
