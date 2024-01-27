@@ -47,7 +47,7 @@ document.write(`--------- Marksheet --------- <hr> <br> Subject Maths: "  ${Math
 
 // Assignment 4a
 
-let = usera = +prompt('Enter Value for table start');
+let = usera = +prompt('Enter Value for table ');
 let = userinpa1 = +prompt('Enter Value for table length');
 
 for(var i=1; i<=userinpa1; i++){
