@@ -46,9 +46,12 @@ document.write(`--------- Marksheet --------- <hr> <br> Subject Maths: "  ${Math
 
 
 // Assignment 4a
-
 let = usera = +prompt('Enter Value for table ');
 let = userinpa1 = +prompt('Enter Value for table length');
+
+
+document.write(`writing a table using loop of ${usera}`)
+
 
 for(var i=1; i<=userinpa1; i++){
     document.write(usera + 'X' + i + '=' + userinpa1*i, '<br>')
