@@ -71,7 +71,7 @@ function isPrime(num) {
 const userInput = +prompt("Enter a number:");
 const primeCheck = isPrime(userInput);
 if (primeCheck) {
-    console.log(`${userInput} is a prime number.`);
+    document.write(`<br><hr> ${userInput} is a prime number. <br><hr>`);
 } else {
-    console.log(`${userInput} is not a prime number.`);
+    document.write(`<br><hr> ${userInput} is not a prime number. <br><hr>`);
 }
